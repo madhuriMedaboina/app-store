@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 35px;
+  padding-top: 50px;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 40px;
+  border: 1px solid #7b8794;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.search {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.icon {
+  height: 36px;
+  width: 36px;
+  padding: 8px;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: -40px;
+}
+.app-container {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 900px;
+  }
+}

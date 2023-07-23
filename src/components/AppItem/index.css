@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.list-container {
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+.title {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #1e293b;
+  padding-top: 10px;
+}

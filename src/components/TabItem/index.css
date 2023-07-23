@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.button {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7b8794;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.selected-button {
+  border-bottom-style: solid;
+  border-bottom-color: #2563eb;
+  color: #2563eb;
+}
