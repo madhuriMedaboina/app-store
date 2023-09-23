@@ -305,9 +305,9 @@ class AppStore extends Component {
     this.setState({activeTabId: tabId})
   }
 
-  getFilterApp = () => {
+  getFilterApp =  searchResult  => {
     const {activeTabId} = this.state
-    const filterApps = appsList.filter(
+    const filterApps = searchResult.filter(
       eachAppItem => eachAppItem.category === activeTabId,
     )
 
@@ -323,8 +323,9 @@ class AppStore extends Component {
 
   render() {
     const {activeTabId, searchInput} = this.state
-    const filterApps = this.getFilterApp()
     const searchResult = this.getSearchResult()
+    const filterApps = this.getFilterApp(searchResult)
+    
 
     return (
       <div className="bg-container">
